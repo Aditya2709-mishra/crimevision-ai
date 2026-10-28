@@ -2,6 +2,11 @@
 
 **AI-Assisted Forensic Evidence Analysis System**
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crimevision-ai.streamlit.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Aditya2709--mishra%2Fcrimevision--ai-blue?logo=github)](https://github.com/Aditya2709-mishra/crimevision-ai)
+
+> 🚀 **Live Demo on Streamlit Cloud:** [https://crimevision-ai.streamlit.app](https://crimevision-ai.streamlit.app)
+
 CrimeVision AI is an academic project that demonstrates how artificial intelligence can assist in forensic evidence analysis. It allows investigators to upload images and audio files, analyze them using AI, and generate comprehensive reports.
 
 > ⚠️ **Disclaimer**: This is an academic BTech project for demonstration purposes only. It is NOT intended for real forensic investigations. All AI-generated analysis uses cautious language and should never be treated as definitive evidence.
