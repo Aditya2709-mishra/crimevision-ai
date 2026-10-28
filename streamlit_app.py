@@ -22,8 +22,11 @@ from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 
-# Load .env if present
+# Load .env if present (check current dir and backend/ dir)
 load_dotenv()
+_backend_env = os.path.join(os.path.dirname(os.path.abspath(__file__)), "backend", ".env")
+if os.path.exists(_backend_env):
+    load_dotenv(_backend_env)
 
 # --- Page Configuration ---
 st.set_page_config(
